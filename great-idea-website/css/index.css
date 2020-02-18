@@ -69,23 +69,31 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	border: 1px solid;	
+	/* border: 1px solid;	 */
 }
 
 nav {
+	display: inline-block;
 	border: 1px solid;
-	width: 100px:
+	width: 66%;
 }
 
 nav a {
 	display: inline-block;
-	width: 10%;
+	width: 16%;
 	padding: 10px;
 	text-align: center;
 }
 
-/* header img {
-	border: 1px solid;
-	width: 32%;
+.imageSection {
 	display: inline-block;
-} */
+	border: 1px solid;
+	width: 33%;
+}
+
+.imageSection img {
+	/* display: inline-block; */
+	border: 1px solid;
+	width: 30%;
+	margin: auto auto;
+}
