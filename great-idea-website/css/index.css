@@ -75,7 +75,7 @@ header {
 nav {
 	display: inline-block;
 	border: 1px solid;
-	width: 66%;
+	width: 60%;
 }
 
 nav a {
@@ -88,12 +88,12 @@ nav a {
 .imageSection {
 	display: inline-block;
 	border: 1px solid;
-	width: 33%;
+	width: 30%;
 }
 
 .imageSection img {
-	/* display: inline-block; */
+	display: block;
 	border: 1px solid;
-	width: 30%;
-	margin: auto auto;
+	width: 40%;
+	margin: auto;
 }
